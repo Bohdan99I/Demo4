@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  
+    <link rel="stylesheet" href="./sass/index.scss" />
+    
+    <script type="module" src="./index.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" href="./sass/index.scss" />
-  <script type="module" src="./index.js"></script>
-</head>
+  <body>
+    <!-- header -->
 
-<body>
+    <include src="./partials/header.html"></include>
 
-  <!-- header -->
+    <!-- main -->
+    
 
-  <include src="./partials/header.html"></include>
+    <include src="./partials/categories.html"></include>             
+    <include src="./partials/support.html"></include>
 
-  <!-- main -->
+    <include src="./partials/best-sellers.html"></include>
 
-  <include src="./partials/categories.html"></include>
-  <include src="./partials/support.html"></include>
-  <include src="./partials/best-sellers.html"></include>
+    <!-- footer -->
 
-  <!-- footer -->
+    <include src="./partials/footer.html"></include>
 
-  <include src="./partials/footer.html"></include>
+    <!-- modals -->
 
-  <!-- modals -->
+    <include src="./partials/mobile-menu.html"></include>
+    <include src="./partials/modals/modal.html"></include>
+    <include src="./partials/modals/authorization-modals.html"></include>
+    <include src="./partials/scroll-button.html"></include>
 
-  <include src="./partials/mobile-menu.html"></include>
-  <include src="./partials/modals/modal.html"></include>
-  <include src="./partials/modals/authorization-modals.html"></include>
-
-</body>
-
+  </body>
 </html>
